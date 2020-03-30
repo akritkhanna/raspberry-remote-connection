@@ -5,10 +5,10 @@ control your raspberry pi GPIO remotely from any where.
 2) locate server.py file and run it in the terminal using python server.py
 
 Your very own server is now created now you can controll GPIO pin locally from your network.
-  for example 127.0.0.1/on/<int:pin_no> (without '<>'). Same for turning off 127.0.0.1/off/<int:pin_no> (without '<>')
+  for example 127.0.0.1/on/pin_no. Same for turning off 127.0.0.1/off/pin_no.
   
   To get the status of pin use status api
-  127.0.0.1/status/<int:pin_no> (without '<>').
+  127.0.0.1/status/pin_no.
   
   <b>NOTE</b>:
   This will only allow to controll GPIO from local network, to make it public you need to do Port Forward your ip or use ngrok for     this(this is the simplest way).
